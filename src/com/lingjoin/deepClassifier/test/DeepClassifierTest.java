@@ -32,7 +32,7 @@ public class DeepClassifierTest {
 		DeepClassifier.init("lib", 800);
 		//训练
 		Long handle=DeepClassifier.newInstance(800);
-		String fPath="data_train";
+		String fPath="C:\\Users\\Pan\\Desktop\\训练分类用文本\\训练分类用文本\\JGLX";
 		DeepClassifierTest test=new DeepClassifierTest();
 		test.getAllfiles(new File(fPath));
 		for(String f:test.files){
